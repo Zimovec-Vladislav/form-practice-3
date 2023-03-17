@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+    background-color: #025227;
+}
+
+    /* auth(Поле регистрации) */
+.auth {
+    margin: 20px auto;
+    padding: 15px;
+    width: 328px;
+
+    background-color: bisque;
+}
+
+.auth-title {
+    text-align: center;
+    font-size: 25px;
+    color: #5d2803;
+
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+    /* form-input (текстовые поля)*/
+.form-input {
+    margin-bottom: 15px;
+}
+
+.input {
+    display: block;
+    font-family: inherit;
+    font-size: 17px;
+
+    padding: 9px 10px;
+    width: 306px;
+
+    border: 1px solid #025227;
+
+    background-color: azure;
+
+}
+
+.input:focus {
+    outline: 2px solid #025227;
+}
+
+    /* select */
+.select {
+    display: block;
+    font-family: inherit;
+    font-size: 17px;
+
+    padding: 9px 10px;
+    width: 327px;
+
+    border: 1px solid #025227;
+
+    background-color: azure;
+}
+
+.select:focus {
+    outline: 2px solid #025227;
+}
+
+    /* button */
+.button {
+    display: block;
+    font-family: inherit;
+    font-size: 17px;
+
+    margin: auto;
+    padding: 9px 10px;
+    width: 181px;
+
+    border: 1px solid #025227;
+
+    background-color: #954004;
+    color: white;
+
+}
+
+.button:focus,
+.button:hover {
+    background-color:#813602;
+}
+
+.button:active {
+    background-color:#642900;
+}
+
+
+
+
+
+
+
+
+
